@@ -5,7 +5,7 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 function App() {
   return (
     <div className="App">
-      <Registration/>
+      <h1>dfs</h1>
     </div>
   );
 }
