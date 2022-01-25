@@ -59,7 +59,7 @@ export default function Registration() {
   }, [])
 
     return (
-        <div style={{padding:'10px', minHeight: '100vh', background: `url('${welcome}')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}>
+        <div style={{padding:'10px', minHeight: '100vh', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}>
             <Row>
                 <Col xs={{span: 24}} lg={{span:24}} align="center" >
                 <h3 align='left' style={{position: 'fixed', left: '0px', margin: 'auto', boxShadow: '0px 5px 9px 3px silver', borderRadius: '', backgroundColor: '#4267B2', padding: '30px 20px', color: 'white', right: '130px', top: '0px', width: '100%', zIndex: '9999'}}>
