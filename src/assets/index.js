@@ -1,7 +1,7 @@
 import recreationalSilhouettes from './img1.svg';
-import welcome from './welcome.jpg';
+import ad from './ad.png';
 
 export {
     recreationalSilhouettes,
-    welcome
+    ad
 }
