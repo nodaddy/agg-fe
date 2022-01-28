@@ -11,7 +11,7 @@ export default function HomePage() {
         </Col>
     </Row>
     
-    <Row style={{paddingTop: '30vh', height: '60vh'}}>
+    <Row style={{paddingTop: '21vh', height: '50vh'}}>
         <Col xs={{span: 3}}></Col>
         <Col xs={{span: 0}} md={{span: 18}}>
             <p style={{fontSize: '30px', fontFamily: 'roboto', color: 'silver'}}>From <span style={{color: 'white'}}>websites</span> and <span style={{color: 'white'}}>portfolios</span> <br/> to mobile <span style={{color: 'white'}}>apps</span>, <br/>we’ll create your <span style={{color: 'white'}}>amazing online presence.</span></p>
