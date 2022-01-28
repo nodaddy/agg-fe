@@ -49,6 +49,8 @@ export default function HomePage() {
 
             </div> 
             <br/>
+            <br/>
+            <br/>
             <Row style={{verticalAlign: 'center', padding: '0px 35px'}}>
             <Col md={{span: 18}} xs={{span:6}}>
             <hr/>
