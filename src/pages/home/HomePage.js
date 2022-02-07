@@ -24,7 +24,7 @@ export default function HomePage() {
             <p style={{fontSize: '30px', fontFamily: 'roboto', color: '#555555', fontWeight: '700'}}>From <span style={{color: '#871F78'}}>websites</span> and <span style={{color: '#871F78'}}>portfolios</span> <br/> to mobile <span style={{color: '#871F78'}}>apps</span>, <br/>we’ll create your <span style={{color: '#871F78'}}>amazing online presence.</span></p>
         </Col>
         <Col xs={{span: 18}} md={{span: 0}}>
-            <p style={{fontSize: '25px', fontFamily: 'roboto', color: '#555555', fontWeight: '700'}}>From <span style={{color: '#871F78'}}>websites</span> and <span style={{color: '#871F78'}}>portfolios</span> <br/> to mobile <span style={{color: '#871F78'}}>apps</span>, <br/>we’ll create your <span style={{color: '#871F78'}}>amazing online presence.</span></p>
+            <p style={{fontSize: '25px', fontFamily: 'roboto', color: '#555555'}}>From <span style={{color: '#871F78'}}>websites</span> and <span style={{color: '#871F78'}}>portfolios</span> <br/> to mobile <span style={{color: '#871F78'}}>apps</span>, <br/>we’ll create your <span style={{color: '#871F78'}}>amazing online presence.</span></p>
             
             </Col>
         <Col xs={{span: 3}}></Col>
