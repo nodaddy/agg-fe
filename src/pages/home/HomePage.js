@@ -53,9 +53,8 @@ export default function HomePage() {
                     <img src={ad} style={{width: '100%'}} alt="ad"/>
                 </div>
                 <div style={{minWidth: '100px', maxWidth: '100px', border: '0px solid black', marginRight: '37px', textAlign: 'center', marginTop: '20px'}}>
-                <h3 style={{color: ''}}><b>R.K. <br/>Minerals</b></h3>
+                <h3 style={{color: ''}}>R.K. <br/>Minerals</h3>
                 </div>
-
             </div> 
             <br/>
             <br/>
@@ -66,9 +65,9 @@ export default function HomePage() {
             </Row> 
 
             <div style={{padding: '0px 35px', display: 'flex', flexWrap: 'nowrap', overflowX: 'scroll', color: '', fontSize: '18px', fontFamily: 'roboto'}}>
-                <span style={{minWidth: '400px', maxWidth: '400px', height: '200px', border: '0px solid black', marginRight: '37px', textAlign: 'left', marginTop: '20px'}}>
+                <p style={{minWidth: '400px', maxWidth: '400px', height: '200px', border: '0px solid black', marginRight: '37px', textAlign: 'left', marginTop: '20px'}}>
                     "I is the Lorem ipsum lorem ipsuem Lorem ipsum lorem ipsuem Lorem  ips " <br/><br/> - Joe
-                </span>
+                </p>
 
                 <span style={{minWidth: '400px', maxWidth: '400px', height: '200px', border: '0px solid black', marginRight: '37px', textAlign: 'left', marginTop: '20px'}}>
                     "Lorem ipsuem ipsuem Lorem  ipsum lorem ipsuem Lorem ipsum lorem ipsuem 
