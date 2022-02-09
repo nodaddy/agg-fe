@@ -14,28 +14,32 @@ export default function PackageCards(props) {
             img: 'https://images.pexels.com/photos/3183156/pexels-photo-3183156.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
             Charges: '15000',
             costsIncluded: ['Website name registration', 'Deployment cost', 'Service fee'],
-            bgColor: '#008080'
+            bgColor: '#008080',
+            demoLink: 'https://demobusinesswebsite393061038.wordpress.com'
         }, {
             title: 'Personal Website / Portfolio',
             img: 'https://images.pexels.com/photos/8872785/pexels-photo-8872785.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
             priceStartingFrom: '4000',
             costsIncluded: ['Website name registration', 'Deployment cost', 'Service fee'],
-            bgColor: '#6A5ACD'
+            bgColor: '#6A5ACD',
+            demoLink: 'https://archanadesign.com'
         }, {
             title: 'Mobile Application',
             img: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
             priceStartingFrom: '30000',
             costsIncluded: ['Service fee', 'Deployment cost', 'No hidden charges'],
-            bgColor: '#708090'
+            bgColor: '#708090',
+            demoLink: 'https://demobusinesswebsite393061038.wordpress.com'
         }
     ]
 
   return (
-      <div id={props.id} style={{paddingTop: '16vh'}}>
+      <div id={props.id} style={{paddingTop: '10vh'}}>
             <Row style={{verticalAlign: 'center', padding: '0px 35px'}}>
-                <Col md={{span: 24}}  xs={{span:24}} align="left"><h3 style={{color: '#871F78', fontFamily: 'roboto'}}><b>SERVICES<hr/></b></h3></Col>
+                <Col md={{span: 24}}  xs={{span:24}} align="center"><h3 style={{color: '#871F78', fontFamily: 'roboto'}}><b>SERVICES</b></h3></Col>
                 
             </Row>
+            <br/>
             <br/>
         <Row>
             
@@ -55,9 +59,9 @@ export default function PackageCards(props) {
                                 />
                             }
                             actions={[
-                                <a href="#" style={{backgroundColor: card.bgColor, color: 'white', padding: '7px 7px'}}><PicLeftOutlined /> Demo</a>,
-                                <a href="#" style={{backgroundColor: card.bgColor, color: 'white', padding: '7px 7px'}}><PhoneOutlined /> Contact</a>,
-                                <a href="#" style={{backgroundColor: card.bgColor, color: 'white', padding: '7px 7px'}}>More</a>,
+                                <a href={card.demoLink} style={{backgroundColor: card.bgColor, color: 'white', padding: '7px 7px'}}><PicLeftOutlined /> Demo</a>,
+                                <a href={card.demoLink} style={{backgroundColor: card.bgColor, color: 'white', padding: '7px 7px'}}><PhoneOutlined /> Contact</a>,
+                                <a href={card.demoLink} style={{backgroundColor: card.bgColor, color: 'white', padding: '7px 7px'}}>More</a>,
                                 
                             ]}
                             >
