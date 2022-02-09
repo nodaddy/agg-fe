@@ -60,9 +60,11 @@
 	}
   }
   .scroll {
+	color:'#871F78';
 	width: 60px;
 	height: 60px;
-	border: 2px solid #333;
+	border: 1.5px solid#871F78;
+	;
 	border-radius: 50%;
 	position: relative;
 	animation: down 1.3s infinite;
@@ -75,8 +77,9 @@
 	left: 18px;
 	width: 18px;
 	height: 18px;
-	border-left: 2px solid #333;
-	border-bottom: 2px solid #333;
+	border-left: 1.5px solid#871F78;
+	;
+	border-bottom: 1.5px solid #871F78;
 	transform: rotate(-45deg);
   }
   
