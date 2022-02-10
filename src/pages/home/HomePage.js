@@ -50,7 +50,7 @@ export default function HomePage() {
                     <img src={ad} style={{width: '100%'}} alt="ad"/>
                 </div>
                 <div style={{minWidth: '100px', maxWidth: '100px', border: '0px solid black', marginRight: '37px', textAlign: 'center', marginTop: '20px'}}>
-                <h3 style={{color: 'black'}}>R.K. <br/>Minerals</h3>
+                <h4 style={{color: 'black', border: '1px solid silver', borderRadius: '50%', padding: '20px'}}>R.K. <br/>Minerals</h4>
                 </div>
             </div> 
             <Row style={{verticalAlign: 'center', paddingTop: '10vh'}}>
@@ -76,18 +76,18 @@ export default function HomePage() {
             Email: contact@bitsjoy.com <br/>
         </Col>
 
-        <Col xs={{span: 0}} md={{span: 12}} align="right">
+        {/* <Col xs={{span: 0}} md={{span: 12}} align="right" style={{fontFamily: 'roboto', fontWeight: '700'}}>
             <Button type="text">About us</Button>
             <Button type="text">Get Quote</Button>
             <Button type="text">Careers</Button>
         </Col>
 
-        <Col xs={{span: 24}} md={{span: 0}} align="left">
+        <Col xs={{span: 24}} md={{span: 0}} align="left" style={{fontFamily: 'roboto', fontWeight: '700'}}>
             <br/>
             <Button type="text">About us</Button> 
             <Button type="text">Get Quote</Button>
             <Button type="text">Careers</Button>
-        </Col>
+        </Col> */}
     </Row>
   </div>;
 }
