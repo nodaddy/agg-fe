@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Avatar, Row, Col } from 'antd';
-import { EditOutlined, EllipsisOutlined, PhoneOutlined, PicLeftOutlined } from '@ant-design/icons';
+import { EditOutlined, EllipsisOutlined, PhoneOutlined, PicLeftOutlined, ArrowDownOutlined } from '@ant-design/icons';
 
 const { Meta } = Card;
 
@@ -10,18 +10,18 @@ export default function PackageCards(props) {
 
     const cardInfo = [
         {
-            title: 'Business Website',
+            title: 'Online Stock Register',
             img: 'https://images.pexels.com/photos/3183156/pexels-photo-3183156.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
             Charges: '15000',
-            costsIncluded: ['Website name registration', 'Deployment cost', 'Service fee'],
+            costsIncluded: ['Deployment cost', ' Service fee'],
             bgColor: '#008080',
             demoLink: 'https://demobusinesswebsite393061038.wordpress.com',
             contactWp: 'https://api.whatsapp.com/send?phone=918126153920'
         }, {
-            title: 'Personal Website / Portfolio',
+            title: 'Websites / Portfolio',
             img: 'https://images.pexels.com/photos/8872785/pexels-photo-8872785.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
             priceStartingFrom: '4000',
-            costsIncluded: ['Website name registration', 'Deployment cost', 'Service fee'],
+            costsIncluded: ['Website name registration', ' Deployment cost', ' Service fee'],
             bgColor: '#6A5ACD',
             demoLink: 'https://archanadesign.com',
             contactWp: 'https://api.whatsapp.com/send?phone=918126153920'
@@ -29,7 +29,7 @@ export default function PackageCards(props) {
             title: 'Mobile Application',
             img: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
             priceStartingFrom: '30000',
-            costsIncluded: ['Service fee', 'Deployment cost', 'No hidden charges'],
+            costsIncluded: ['Service fee', ' Deployment cost', ' No hidden charges'],
             bgColor: '#708090',
             demoLink: 'https://demobusinesswebsite393061038.wordpress.com',
             contactWp: 'https://api.whatsapp.com/send?phone=918126153920'
@@ -69,9 +69,14 @@ export default function PackageCards(props) {
                             ]}
                             >
                                 <h2 style={{ color: 'white', fontFamily: 'raleway', fontWeight: '700'}}>{card.title}</h2>
-                                <h3 style={{ color: 'white', fontFamily: 'roboto', fontWeight: '700'}}>Costs include :<ul style={{paddingLeft: '30px'}}> {card.costsIncluded.map((costType)=>{
+                                <h3  style={{ color: 'white', fontFamily: 'roboto', fontWeight: '700'}}>Costs include  <ArrowDownOutlined/>
+                                
+                                <marquee style={{display: 'none'}} className="lg">{card.costsIncluded.toString(', ')}</marquee>
+                                
+                                {<ul className="sm" style={{paddingLeft: '30px', display: 'none'}}> {card.costsIncluded.map((costType)=>{
                                     return <li>{costType}</li>
-                                })}</ul></h3>
+                                })}</ul> }
+                                </h3>
                             
                         </Card>
                     </Col>

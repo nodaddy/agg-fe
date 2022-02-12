@@ -58,12 +58,11 @@ export default function HomePage() {
             </Row> 
             <div style={{padding: '0px 35px', display: 'flex', flexWrap: 'nowrap', overflowX: 'scroll', color: '', fontSize: '18px', fontFamily: 'roboto'}}>
                 <p style={{minWidth: '400px', maxWidth: '400px', border: '0px solid black', marginRight: '37px', textAlign: 'left', marginTop: '20px'}}>
-                    "I is the Lorem ipsum lorem ipsuem Lorem ipsum lorem ipsuem Lorem  ips " <br/><br/> - Joe
+                    "" <br/><br/> - Joe
                 </p>
 
                 <span style={{minWidth: '400px', maxWidth: '400px', border: '0px solid black', marginRight: '37px', textAlign: 'left', marginTop: '20px'}}>
-                    "Lorem ipsuem ipsuem Lorem  ipsum lorem ipsuem Lorem ipsum lorem ipsuem 
-                    Lorem ipsum lorem ipsuemm Lorem ipsum lorem ipsuem " <br/><br/> - Mitchel Garden
+                    "" <br/><br/> - Mitchel Garden
                 </span>
 
             </div>
