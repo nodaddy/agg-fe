@@ -44,7 +44,7 @@ export default function HomePage() {
                 <Col md={{span: 24}}  xs={{span:24}} align="center"><h3 style={{color: '#871F78', fontFamily: 'roboto'}}><b>OUR CLIENTS</b></h3></Col>
                 
             </Row> 
-            <div style={{background: '', display: 'flex', flexWrap: 'nowrap', overflowX: 'scroll', color: 'black', fontSize: '18px', fontFamily: 'roboto', padding: '0px 35px'}}>
+            <div style={{ background: '', display: 'flex', flexWrap: 'nowrap', overflowX: 'scroll', color: 'black', fontSize: '18px', fontFamily: 'roboto', padding: '0px 35px'}}>
                 
             <div style={{minWidth: '100px', maxWidth: '100px', border: '0px solid black', marginRight: '37px', textAlign: 'center', marginTop: '20px'}}>
                     <img src={ad} style={{width: '100%'}} alt="ad"/>
@@ -68,9 +68,9 @@ export default function HomePage() {
             </div>
         </Col>
     </Row>
-    <Row style={{padding: '20px 35px', background: '#e5e4e2', fontFamily: 'roboto', fontWeight: '700'}}>
+    <Row style={{padding: '20px 35px', background: 'linear-gradient(antiquewhite, white, white)', fontFamily: 'roboto', fontWeight: '700'}}>
         <Col xs={{span: 24}} md={{span: 12}} align="left">
-            <h3>Contact details</h3>
+            <h3><b>Contact details</b></h3>
             Phone: +91 9870938860, +91 8126153920 <br/>
             Email: contact@bitsjoy.com <br/>
         </Col>
