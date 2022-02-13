@@ -68,7 +68,7 @@ export default function HomePage() {
             </div>
         </Col>
     </Row>
-    <Row style={{padding: '20px 35px', background: 'linear-gradient(antiquewhite, white, white)', fontFamily: 'roboto', fontWeight: '700'}}>
+    <Row style={{padding: '20px 35px', background: 'linear-gradient(silver, white, white)', fontFamily: 'roboto', fontWeight: '700'}}>
         <Col xs={{span: 24}} md={{span: 12}} align="left">
             <h3><b>Contact details</b></h3>
             Phone: +91 9870938860, +91 8126153920 <br/>
