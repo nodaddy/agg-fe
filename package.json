@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "git add . && git commit -m 'a' && git push && gh-pages -d build && cd .. && cd pop && git pull && mkdir agg-fa && cp -R ~/Desktop/pop/static ~/Desktop/pop/agg-fa/static && git add . && git commit -m 'a' && git push"
+    "deploy": "git add . && git commit -m 'a' && git push && gh-pages -d build && cd .. && cd pop && git pull && mkdir agg-fe && cp -R ~/Desktop/pop/static ~/Desktop/pop/agg-fe/static && git add . && git commit -m 'a' && git push"
   },
   "eslintConfig": {
     "extends": [
